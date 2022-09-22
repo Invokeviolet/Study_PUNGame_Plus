@@ -25,7 +25,7 @@ public static class AppSettingsExtensions
             EnableProtocolFallback = appSettings.EnableProtocolFallback,
             Server = appSettings.IsDefaultNameServer ? null : appSettings.Server,
             Port = (ushort)appSettings.Port,
-            ProxyServer = appSettings.ProxyServer
+            //ProxyServer = appSettings.ProxyServer
             // values not copied from AppSettings class: AuthMode
             // values not needed from AppSettings class: EnableLobbyStatistics 
         };
